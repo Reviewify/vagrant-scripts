@@ -2,7 +2,9 @@
 
 To ensure we are all working within the same environment, we use Vagrant to provision development environments.
 
-To begin, go to the [downloads](http://www.vagrantup.com/downloads) page and install the correct version of Vagrant for your machine. We're also going to be using VirtualBox, so go to the [downloads](https://www.virtualbox.org/) page and install it if you haven't already done so.
+To begin, go to the [downloads](http://www.vagrantup.com/downloads) page and install the correct version of Vagrant for your machine. 
+
+We're also going to be using VirtualBox, so go to the [downloads](https://www.virtualbox.org/) page and install it if you haven't already done so.
 
 First, create a directory where your want your Vagrant files to live.
 
