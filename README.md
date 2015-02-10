@@ -39,3 +39,10 @@ If everything works, `exit` out of your virtual machine and then run:
 	$ vagrant destroy
 
 Now, download the updated Vagrantfile from the repo and run `vagrant up` again and it should install all of the dependencies you need to get up and running. 
+
+To ensure everything worked, SSH back into your virtual machine and run the following:
+
+	$ python
+	$ import spacy
+	
+If spaCy imports with no errors, everything should be good to go. 
