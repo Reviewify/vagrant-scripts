@@ -6,11 +6,13 @@ To begin, go to the [downloads](http://www.vagrantup.com/downloads) page and ins
 
 We're also going to be using VirtualBox, so go to the [downloads](https://www.virtualbox.org/) page and install it if you haven't already done so.
 
+You can either clone the repo into a directory, or follow the steps below to accomplish the same thing. 
+
 First, create a directory where your want your Vagrant files to live.
 
-	$ cd ~/Documents
-	$ mkdir Reviewify-AWS
-	$ cd Reviewify-AWS
+	$ cd ~/Reviewify
+	$ mkdir vagrant-scripts
+	$ cd vagrant-scripts
 
 Now we create the Vagrantfile:
 	
