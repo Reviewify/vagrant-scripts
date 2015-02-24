@@ -25,8 +25,9 @@ Download a virtual machine box:
 Modify the Vagrantfile that was created so that it only reads:
 
 	Vagrant.configure(2) do |config|
-      config.vm.box = "hashicorp/precise32"
-    end
+	  	config.vm.box = "hashicorp/precise32"
+  		config.vm.provision "shell", path: "spacy.sh"
+	end
 
 Now get the virtual machine running:
 
