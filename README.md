@@ -44,6 +44,6 @@ If everything works, `exit` out of your virtual machine and then run:
 To ensure everything worked, SSH back into your virtual machine and run the following:
 
 	$ python
-	$ import spacy
+	>>> import spacy
 	
 If spaCy imports with no errors, everything should be good to go. 
